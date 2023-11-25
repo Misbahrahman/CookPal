@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins";
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="elements/Cookpal 1logo.svg" alt="" />
+      <div>
+        <a style="color: green" href="">Home</a>
+        <a href="">Expore</a>
+        <a href="">Help</a>
+        <img src="elements/Ellipse 2foto.svg" alt="" />
+      </div>
+    </nav>
+
+    <section class="my-2" id="banner">
+      <img src="elements/Rectangle 20banner.svg" alt="" />
+    </section>
+
+    <section id="search-Section" class="pt-3">
+        <h2 id="search" class="my-3">Search For Recipes</h2>
+
+        <div class="d-flex">
+            <input placeholder="Search for recipes.." id="inp" style="width: 97%;" type="text">
+            <div style="background-color: green;"><i class="fa-solid fa-magnifying-glass m-2" style="color: #ffffff;"></i></div>
+        </div>
+
+        <div class="my-5 d-flex">
+            <button style="background: #EAAA00;" class="srcBtn ">
+                <h5>All Recipes</h5>
+                <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+            </button>
+            <button style="background: #C4D600;" class="srcBtn">
+                <h5>Veg Recipes Only</h5>
+                <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+            </button>
+            <button style="background: #DC582A;" class="srcBtn">
+                <h5>Non Veg recipes</h5>
+                <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="m-auto mainSection">
+        <div class="filterpanel d-flex flex-column mx-4" id="filter">
+            <h5 class="my-2">Filters</h6>
+            <h6>Ratings</h6>
+            <div class="fil"><input type="checkbox"><p>4 And Above</p></div>
+        </div>
+        <div id="gridDiv">
+            
+        </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
